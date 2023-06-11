@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headline4,
             ),
             Text(
-              "Hello world " * 3, //重复3次
+              "Hello world !" * 3, //重复3次
               textAlign: TextAlign.center,
             ),
             Text(
