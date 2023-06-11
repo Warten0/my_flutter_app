@@ -96,20 +96,20 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'This is a name:',
             ),
             Text(
-              '$_counter',
+              '刘福应',
               style: Theme.of(context).textTheme.headline4,
             ),
-            Text(
-              "Hello world !" * 3, //重复3次
+            const Text(
+              "This is a name and student number:", 
               textAlign: TextAlign.center,
             ),
             Text(
               "刘福应——20211120228",
               style: TextStyle(
-                  color: Colors.blue,
+                  color: Colors.white,
                   fontSize: 18.0,
                   height: 1.2,
                   fontFamily: "Courier",
@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   decorationStyle: TextDecorationStyle.dashed),
             ),
             ElevatedButton(
-                  child: const Text("normal"),
+                  child: const Icon(Icons.thumb_up),
                   onPressed: () {},
             ),
           ],
